@@ -1,0 +1,48 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "IvNwHW2vSqNHvtUywPSEdS3AQm72": {
+        "type": "object",
+        "properties": {
+          "age": {
+            "type": "string"
+          },
+          "image": {
+            "type": "string",
+            "pattern": "^You need to provide a valid media path\\.$"
+          },
+          "location": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": ["age", "image", "location", "name"]
+      },
+      "highScore": {
+        "type": "integer"
+      },
+      "name": {
+        "type": "string"
+      },
+      "pX7XhECerwb5lROGNcGX25FMERz2": {
+        "type": "object",
+        "properties": {
+          "age": {
+            "type": "string"
+          },
+          "location": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": ["age", "location", "name"]
+      }
+    },
+    "required": ["IvNwHW2vSqNHvtUywPSEdS3AQm72", "highScore", "name", "pX7XhECerwb5lROGNcGX25FMERz2"]
+  }
+  
